@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Social Media App</title>
+    <link rel="stylesheet" href="soc2.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Social Media App</h1>
+            <button id="logout">Logout</button>
+        </header>
+        
+        <div class="profile">
+            <h2>Create Profile</h2>
+            <input type="text" id="username" placeholder="Username">
+            <button id="createProfile">Create Profile</button>
+        </div>
+
+        <div class="post-creation">
+            <h2>Create Post</h2>
+            <textarea id="postContent" placeholder="What's on your mind?"></textarea>
+            <input type="file" id="postImage" accept="image/*">
+            <button id="submitPost">Post</button>
+        </div>
+
+        <div class="feed">
+            <h2>Feed</h2>
+            <div id="postsContainer"></div>
+        </div>
+    </div>
+
+    <script src="soc3.js"></script>
+</body>
+</html>
